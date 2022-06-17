@@ -69,7 +69,9 @@ export const SavedShows = () => {
                 <p onClick={()=> deleteShow(item.id)} className='absolute text-gray-300 top-4 right-4'><AiOutlineClose /></p>
               </div>
             </div>
-          ))}
+          ))} 
+
+          
         </div>
         <MdChevronRight
           onClick={slideRight}

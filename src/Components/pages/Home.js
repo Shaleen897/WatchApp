@@ -2,7 +2,7 @@ import React from 'react'
 import requests from '../../Requests'
 import Main from '../main'
 import Row from '../Row'
-import { category, movieType, tvType } from '../../api/tmdbApi';
+import { category } from '../../api/tmdbApi';
 export const Home = () => {
 
   return (

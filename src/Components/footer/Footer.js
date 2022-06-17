@@ -1,10 +1,17 @@
 import React from 'react'
+import { Link} from "react-router-dom";
+import './footer.css';
 
  const Footer = () => {
     return (
         <>
             <div className='w-full h-full bg-blue p-4'>
-                <div className='flex  w-[80%] h-full justify-between m-auto p-4 self-center'>
+                <div className='flex  widthfooter h-full justify-between m-auto p-4 self-center'>
+                <Link to='/'>
+        <h1 className="hiddenfooter text-red-600 text-6xl font-bold cursor-pointer">
+          WATCHAPP
+        </h1>
+      </Link>
                     <div className=''>
                         <ul className='text-gray-500  mr-3'>
                             <li><a href='/'>Help Center</a></li>

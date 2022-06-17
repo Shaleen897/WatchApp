@@ -1,0 +1,23 @@
+.widthfooter{
+    width: 80%;
+}
+
+@media screen and (max-width: 1040px) {
+    .hiddenfooter{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 940px) {
+    .hiddenfooter{
+        display: none;
+    }
+
+    .widthfooter{
+        width: 100%;
+    }
+
+
+}

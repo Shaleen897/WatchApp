@@ -68,7 +68,7 @@ const Navbar = () => {
           <ul className={click ? 'nav-menu1 active' : 'nav-menu1'}>
             {
               headerNav.map((e, i) => (
-                <li key={i} className='text-lg hover:text-red-600 ' onClick={handleClick}>
+                <li key={i} className='text-lg hover:text-red-600 '>
                   <Link to={e.path}>
                     {e.display}
                   </Link>
@@ -92,16 +92,7 @@ const Navbar = () => {
             (
               <li>
             <button className='text-3xl px-4 rounded cursor-pointe hover:text-red-600'>
-              {click ?
-
-              <p className='flex' onClick={handleGoogleSignIn}>
-              <FcGoogle  />
-              <span className=''> Login with Google</span>
-              </p> :
-
                  <FcGoogle onClick={handleGoogleSignIn} />
-
-              }
             </button>
             </li>
             )
